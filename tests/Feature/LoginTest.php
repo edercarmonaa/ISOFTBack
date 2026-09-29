@@ -18,7 +18,7 @@ class LoginTest extends TestCase
       /*
       $data = [
         'user_password' => "123456",
-        'user_email' => "perez4580@kared.com",
+        'user_email' => "usuario@example.test",
          ];
 
       $response = $this->post('/api/login',$data);

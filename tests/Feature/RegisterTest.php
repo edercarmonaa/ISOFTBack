@@ -17,18 +17,18 @@ class RegisterTest extends TestCase
     {
     /*
       $data = [
-        'user_name' => "Juan Perez lopez",
-        'user_email' => "perez4580@kared.com",
+        'user_name' => "Usuario Ejemplo",
+        'user_email' => "usuario@example.test",
         'user_password' => "123456",
-        'user_phone' => "5522556778",
-        'user_dire' => "bravo 89 colonia centro banderilla",
+        'user_phone' => "5550000000",
+        'user_dire' => "Calle Ficticia 123",
          ];
 
          $data2 = [
-           'user_name' => "Juan Perez lopez",
-           'user_email' => "perez4580@kared.com",
-           'user_phone' => "5522556778",
-           'user_dire' => "bravo 89 colonia centro banderilla",
+           'user_name' => "Usuario Ejemplo",
+           'user_email' => "usuario@example.test",
+           'user_phone' => "5550000000",
+           'user_dire' => "Calle Ficticia 123",
             ];
 
          $response = $this->post('/api/register',$data);

@@ -17,22 +17,22 @@ class updateUserTest extends TestCase
     {
       /*
       $data = [
-        'user_name' => "Juan Perez lopez",
-        'user_email' => "perez4580@kared.com",
+        'user_name' => "Usuario Ejemplo",
+        'user_email' => "usuario@example.test",
         'user_password' => "123456",
-        'user_phone' => "5522556778",
-        'user_dire' => "bravo 89 colonia centro banderilla",
+        'user_phone' => "5550000000",
+        'user_dire' => "Calle Ficticia 123",
          ];
-      $token = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC8yMy45Ni4xLjExMFwvYXBpXC9sb2dpbiIsImlhdCI6MTYzNjYwOTM0NSwiZXhwIjoxNjM5MjAxMzQ1LCJuYmYiOjE2MzY2MDkzNDUsImp0aSI6ImE5WEgxMEFuQ2JBNmxnR0giLCJzdWIiOjcsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.me2_71vwqqpNLd8kUmjKPMQKAggMp5OHaQ-xvW-4_o8";
+      $token = "test_jwt_token";
       $response = $this->call('POST', '/api/update_user', $data, [], [], ['HTTP_Authorization' => 'Bearer '.$token]);
       $response
           ->assertStatus(200)
           ->assertJson(['success' => true]);
           $data2 = [
-            'user_name' => "Juan Perez lopez",
-            'user_email' => "perez4580@kared.com",
-            'user_phone' => "5522556778",
-            'user_dire' => "bravo 89 colonia centro banderilla",
+            'user_name' => "Usuario Ejemplo",
+            'user_email' => "usuario@example.test",
+            'user_phone' => "5550000000",
+            'user_dire' => "Calle Ficticia 123",
              ];
     $this->assertDatabaseHas('users', $data2);*/
     }

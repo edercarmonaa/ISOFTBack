@@ -16,14 +16,14 @@ class StationTest extends TestCase
     public function test_example()
     {
     /*  $data = [
-          'station_name' => 'Santa Ana',
-          'station_razon' => 'Servi Gasoleo S. de RL. de C.V.',
-          'station_rfc' => 'SGS07111877R',
-          'station_dire' => 'AV Santa Ana 56 SN',
-          'station_mpo' =>'Tepic',
-          'station_edo' => 'Nayarit',
-          'station_cp' => '44886',
-          'station_phone' => '2281092986',
+          'station_name' => 'Estacion Ejemplo',
+          'station_razon' => 'Empresa Ejemplo SA de CV',
+          'station_rfc' => 'XAXX010101000',
+          'station_dire' => 'Calle Ficticia 123',
+          'station_mpo' =>'Municipio Ejemplo',
+          'station_edo' => 'Estado Ejemplo',
+          'station_cp' => '00000',
+          'station_phone' => '5550000000',
           'station_gas' => '12',
           'station_diesel' => '4',
         ];

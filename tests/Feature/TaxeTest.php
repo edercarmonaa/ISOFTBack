@@ -17,12 +17,12 @@ class TaxeTest extends TestCase
     {
       /*
       $data = [
-           'taxe_user' => "eder@ccc.com",
-           'taxe_rfc' => "CAAE830331230",
-           'taxe_company' => "EDER CARMONA AMRIJO",
-           'taxe_email' => "eder@cc.com"
+           'taxe_user' => "usuario@example.test",
+           'taxe_rfc' => "XAXX010101000",
+           'taxe_company' => "Empresa Ejemplo SA de CV",
+           'taxe_email' => "facturacion@example.test"
          ];
-      $token = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC8yMy45Ni4xLjExMFwvYXBpXC9sb2dpbiIsImlhdCI6MTYzNjYwOTM0NSwiZXhwIjoxNjM5MjAxMzQ1LCJuYmYiOjE2MzY2MDkzNDUsImp0aSI6ImE5WEgxMEFuQ2JBNmxnR0giLCJzdWIiOjcsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.me2_71vwqqpNLd8kUmjKPMQKAggMp5OHaQ-xvW-4_o8";
+      $token = "test_jwt_token";
       $response = $this->call('POST', '/api/taxes', $data, [], [], ['HTTP_Authorization' => 'Bearer '.$token]);
       $response
           ->assertStatus(200)
