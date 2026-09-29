@@ -347,4 +347,4 @@ php artisan test
 
 ## Licencia
 
-Este proyecto todavia no incluye un archivo `LICENSE`. Antes de publicarlo o aceptar contribuciones externas, conviene definir una licencia explicita.
+Este proyecto está publicado bajo licencia MIT. Consulta LICENSE para el texto completo.
