@@ -60,22 +60,9 @@ El proyecto esta orientado a:
 - Desarrolladores que quieran continuar una API Laravel para tickets, lealtad y facturacion.
 
 ## Capturas
+### EndPoints
 
-El proyecto tiene una vista web en `/` para consultar una venta y mostrar el ticket de servicio. Actualmente no existe una carpeta `docs/images/` ni capturas documentadas en el repositorio.
-
-Cuando se agreguen capturas, una estructura sugerida seria:
-
-```markdown
-## Capturas
-
-### Consulta de venta
-
-![Consulta de venta](docs/images/consulta-venta.png)
-
-### Ticket generado
-
-![Ticket generado](docs/images/ticket-generado.png)
-```
+![EndPoints](docs/images/ISOFTBack.png)
 
 ## Tecnologias utilizadas
 
